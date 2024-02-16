@@ -1,0 +1,15 @@
+{
+  "name": "amt",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@automerge/automerge-repo": "^1.1.1",
+    "@automerge/automerge-repo-network-websocket": "^1.1.1",
+    "@types/yargs": "^17.0.32",
+    "cmd-ts": "^0.13.0",
+    "node-jq": "^4.3.0",
+    "yargs": "^17.7.2"
+  }
+}
