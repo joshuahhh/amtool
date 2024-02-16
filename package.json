@@ -1,11 +1,14 @@
 {
   "name": "amtool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "type": "module",
-  "bin": "./lib/index.js",
+  "bin": {
+    "amtool": "bin/amtool.js"
+  },
   "files": [
-    "lib"
+    "lib",
+    "bin"
   ],
   "scripts": {
     "build": "rm -rf lib && tsc",
