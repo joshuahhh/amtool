@@ -1,6 +1,6 @@
 {
   "name": "amtool",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "MIT",
   "type": "module",
   "bin": {
@@ -12,6 +12,7 @@
   ],
   "scripts": {
     "build": "rm -rf lib && tsc",
+    "watch": "rm -rf lib && tsc -w",
     "prepublish": "npm run build",
     "test": "echo \"sure would be nice to have some tests!\" && exit 1"
   },
